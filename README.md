@@ -1,12 +1,10 @@
-Social Media Ostracism
+Social Media Ostracism: This is Condition 3
 ===========
 
-This is an interactive experimental paradigm, designed to manipulate feelings of social exclusion (ostracism) 
-in an environment resembling a social media platform. The paradigm was designed by Ana Levordashka, Wouter Wolf, 
-Johanna Ruff, and Steven Kraaijeveld (VU University), under the supervision of Prof. Dr. Kip Williams 
-(Purdue University).
+In condition 3 the user recieves 0 likes and 6 dislikes.
 
 Documentation
 ===========
 
-For documentation and previews visit http://smpo.github.io/socialmedia/
+To encode your redirect link.
+http://smpo.github.io/dencoder/
