@@ -178,7 +178,7 @@ $(function() {
   function DeactivateLike() {
 	  setTimeout(function() { 
       $('.btn-like').attr("disabled", true);
-	    alert("You have now completed this task. Please return to the survey tab on your browser.");
+	    alert("This part of the study has now ended. Please return to the survey tab in your browser.");
     }, 2000);
   }
   function DeactivateDisLike(){
