@@ -322,16 +322,15 @@ $(function() {
       columnWidth : 10
     });
 
-    // Redirect, default after 180000ms = 180s = 3min
+    // Redirect, default after 180000ms = 180s = 3min, disabled 'Continue' button with redirect link
     setTimeout(function() {
-
       $(window).unbind('beforeunload');
-      $('#final-continue').show();
+      //$('#final-continue').show();
       $('#timer').text('00:00');
-      $('#final-continue').on('click', function() {
+      //$('#final-continue').on('click', function() {
         // Redirect link
-        location.href = window.redirect+'&a='+window.participant+'&b='+window.condition+'&c='+encodeURI(window.username)+'&d='+window.avatarexport+'&e='+encodeURI(window.description);  // change p->a, c->b, u ->c, av->d, d->e
-      });
+        //location.href = window.redirect+'&a='+window.participant+'&b='+window.condition+'&c='+encodeURI(window.username)+'&d='+window.avatarexport+'&e='+encodeURI(window.description);  // change p->a, c->b, u ->c, av->d, d->e
+      //});
     },window.settings.tasklength); // timing for task
   }
 
